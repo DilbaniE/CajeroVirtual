@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;;
+}
+
+.header_p{
+    border: solid 5px red;
+}
+
+.hd_img{
+    width: 100px;
+    height: 100px;
+}
+
+.main_img{
+    width: 600px;
+    
+}
+.main_p{
+    border: solid 5px rgb(9, 175, 31);
+}
+
+.main_cd{
+    border: solid 5px rgb(175, 9, 161);
+}
