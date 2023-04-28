@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Retirar</title>
+</head>
+<body>
+    <header>
+        <div class="header_p">
+            <div class="header_h">
+                <img class="hd_img" src="/assets/img/logo.jpg" alt="">
+                <h2> <strong>BD</strong>Bancodil</h2>
+
+            </div>
+            <div class="vectores">
+                <img src="/assets/img/v_telefono.svg" alt="">
+                <h4>Contactanos</h4>
+                <img src="/assets/img/v_ubica.svg" alt="">
+                <h4>Oficinas</h4>
+            </div>
+            <div class="header-btn">
+                <button>Banco Virtual</button>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        
+        <form>
+            <div class="padre_f"> 
+                <ul>
+                    <li>
+                        <label for="Numero">Numero</label>
+                        <input type="number" id="number">
+                    </li>
+                    <li>
+                        <label for="text">Tipo de cuenta</label>
+                        <select>
+                                <option value="ahorros">Ahorros</option>
+                                <option value="coriiente">Corriente</option>
+                                <option value="virtual">Virtual</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="text">Forma de pago</label>
+                        <select>
+                            <option value="ahorros">Efectivo</option>
+                            <option value="coriiente">Virtual</option>
+                            <option value="virtual">Especie</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="Numero">Valor</label>
+                        <input type="number" id="number">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                <button>Enviar</button>
+            </div>
+           </form>
+           
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
