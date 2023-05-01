@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <title>Transferir</title>
+    <link rel="stylesheet" href="/assets/css/transferiri.css">
+    <title>Consignar</title>
 </head>
 <body>
     <header>
@@ -24,43 +24,66 @@
                 <img src="/assets/img/v_ubica.svg" alt="">
                 <h4>Oficinas</h4>
             </div>
-            <div class="header-btn">
-                <button>Banco Virtual</button>
+            <div >
+                <button class="header-btn">Banco Virtual</button>
             </div>
             
         </div>
     </header>
     <main>
         
-        <div class="main_p">
-            <div class="main_h">
-                <h1>Queremos ayudarte con tus retiros</h1>
-                <button>Retira aquí</button>
+        <form>
+            <div class="padre_f"> 
+                <div class="hj_conten">
+                    <img class="img_f" src="/assets/img/transferir.jpg" alt="trasnferir">
+                    <ul class="ul_f">
+                        <li>
+                            <label class="text_f" for="Numero">Nombre de usuario</label>
+                            <input  class="laber_f"   type="text" id="text">
+                        </li><br>
+                        <li>
+                            <label class="text_f" for="Numero">Numero de cuenta</label>
+                            <input  class="laber_f"   type="number" id="number">
+                        </li><br>
+                        <li>
+                            <label class="text_f" for="text">Tipo de cuenta--</label>
+                            <select class="laber_f">
+                                    <option value="ahorros">Ahorros</option>
+                                    <option value="coriiente">Corriente</option>
+                                    <option value="virtual">Virtual</option>
+                            </select>
+                        </li><br>
+                        <li>
+                            <label  class="text_f"for="text">Banco a transferir</label>
+                            <select class="laber_f">
+                                <option value="ahorros">Bancolombia</option>
+                                <option value="coriiente">BBUVA</option>
+                                <option value="virtual">Banco</option>
+                            </select>
+                        </li><br>
+                        <li>
+                            <label class="text_f" for="Numero">Valor a transferir</label>
+                            <input  class="laber_f"type="number" id="number">
+                        </li><br>
+                        <li>
+                            <label  class="text_f"for="msg">Mensaje de text</label>
+                            <textarea class="laber_f"  id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul><br>
+                    <div>
+                        <a href="/productos.html"><button class="btn_f">Exit</button></a>
+                        <button class="btn_f">Enviar</button>
+                    </div>
+                </div>   
             </div>
-            <div class="main_h">
-                <img class="main_img" src="/assets/img/main_img.jpg" alt="">
-            </div>
-            </div>
-        <div class="main_cd">
-            <div> 
-                <h3>Asegura tu futuro</h3>
-                <p> Conoce nuestro portafolio y 
-                    proteje lo que mas quieres
-                </p>
-                <img src="/assets/img/main_card.jpg" alt="">
-            </div>
-            <div>
-                <h3>Usa tu tarjeta responsablemente</h3>
-                <p> Aprende a administrar tu dinero y
-                    aprobecha tus tarjetas de credito.
-                </p>
-                <img src="/assets/img/main_card.png" alt="">
-            </div>
-        </div>
+        </form>
         
     </main>
-    <footer>
-
+    <footer class="footer_d">
+        <p>Dilbani Enriquez</p>
+        <p>Desarrollor de Sofware</p>
+        <p>CESDE</p>
+        <p>2023</p>
     </footer>
 </body>
 </html>

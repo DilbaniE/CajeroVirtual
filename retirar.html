@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <title>Retirar</title>
+    <link rel="stylesheet" href="/assets/css/retira.css">
+    <title>Consignar</title>
 </head>
 <body>
     <header>
@@ -24,8 +24,8 @@
                 <img src="/assets/img/v_ubica.svg" alt="">
                 <h4>Oficinas</h4>
             </div>
-            <div class="header-btn">
-                <button>Banco Virtual</button>
+            <div >
+                <button class="header-btn">Banco Virtual</button>
             </div>
             
         </div>
@@ -34,44 +34,52 @@
         
         <form>
             <div class="padre_f"> 
-                <ul>
-                    <li>
-                        <label for="Numero">Numero</label>
-                        <input type="number" id="number">
-                    </li>
-                    <li>
-                        <label for="text">Tipo de cuenta</label>
-                        <select>
-                                <option value="ahorros">Ahorros</option>
-                                <option value="coriiente">Corriente</option>
-                                <option value="virtual">Virtual</option>
-                        </select>
-                    </li>
-                    <li>
-                        <label for="text">Forma de pago</label>
-                        <select>
-                            <option value="ahorros">Efectivo</option>
-                            <option value="coriiente">Virtual</option>
-                            <option value="virtual">Especie</option>
-                        </select>
-                    </li>
-                    <li>
-                        <label for="Numero">Valor</label>
-                        <input type="number" id="number">
-                    </li>
-                    <li>
-                        <label for="msg">Mensaje:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                </ul>
-                <button>Enviar</button>
+                <div class="hj_conten">
+                    <img src="/assets/img/retiro.jfif" alt="retirar">
+                    <ul class="ul_f">
+                        <li>
+                            <label class="text_f" for="Numero">Numero de cuenta</label>
+                            <input  class="laber_f"   type="number" id="number">
+                        </li><br>
+                        <li>
+                            <label class="text_f" for="text">Tipo de cuenta</label>
+                            <select class="laber_f">
+                                    <option value="ahorros">Ahorros</option>
+                                    <option value="coriiente">Corriente</option>
+                                    <option value="virtual">Virtual</option>
+                            </select>
+                        </li><br>
+                        <li>
+                            <label  class="text_f"for="text">Forma de pago</label>
+                            <select class="laber_f">
+                                <option value="ahorros">Efectivo</option>
+                                <option value="coriiente">Virtual</option>
+                                <option value="virtual">Especie</option>
+                            </select>
+                        </li><br>
+                        <li>
+                            <label class="text_f" for="Numero">Valor de retiro</label>
+                            <input  class="laber_f"type="number" id="number">
+                        </li><br>
+                        <li>
+                            <label  class="text_f"for="msg">Mensaje de text</label>
+                            <textarea class="laber_f"  id="msg" name="user_message"></textarea>
+                        </li>
+                    </ul><br>
+                    <div>
+                        <a href="/productos.html"><button class="btn_f">Exit</button></a>
+                        <button class="btn_f">Enviar</button>
+                    </div>
+                </div>   
             </div>
-           </form>
-           
+        </form>
         
     </main>
-    <footer>
-
+    <footer class="footer_d">
+        <p>Dilbani Enriquez</p>
+        <p>Desarrollor de Sofware</p>
+        <p>CESDE</p>
+        <p>2023</p>
     </footer>
 </body>
 </html>
